@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="styles/normalize.css" />
+		<link
+			rel="stylesheet"
+			href="styles/style.css" />
+		<script src="script.js"></script>
+		<title>Галерея котиков</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Котики спасут мир!</h1>
+			<div>
+				<img
+					id="foto"
+					src="assets/foto1.jpg"
+					alt="cat's foto" />
+			</div>
+			<button
+				onclick="previous()"
+				id="previousButton">
+				Предыдущее фото
+			</button>
+			<button
+				onclick="next()"
+				id="nextButton">
+				Следующее фото
+			</button>
+		</div>
+	</body>
+</html>

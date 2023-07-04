@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: min-content;
+}
+h1 {
+    font-size: 40px;
+}
+#yearInput {
+    width: 35vw;
+    height: 40px;
+    border: black 2px solid;
+    border-radius: 5%;
+    font-size: 28px;
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    font-size: 30px;
+}

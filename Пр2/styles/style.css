@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(164, 110, 44);
+}
+img {
+    height: 45vh;
+    border-radius: 10%;
+}
+button {
+    margin: 15px 55px;
+    padding: 5px 15px;
+    background-color: bisque;
+    border-radius: 20%;
+    border-color: bisque;
+    font-size: 23px;
+    width: min-content;
+}
+#previousButton {
+    background-color: gray;
+}
